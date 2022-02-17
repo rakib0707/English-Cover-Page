@@ -1,0 +1,136 @@
+.assignment{
+    position: relative;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../images/background\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+} 
+.word_formaton h1{
+        
+    text-align: center;
+        
+    text-transform: capitalize;
+        
+    font-size: 45px;
+        
+    margin-bottom: 25px;
+        }
+        .submitter_to{
+        
+        }
+        .submitter_to h3{
+            
+    font-size: 35px;
+            
+    text-transform: uppercase;
+            
+    font-weight: 600;
+        }
+        .submitter_to h1{
+        
+    font-size: 45px;
+        
+    font-weight: 700;
+        
+    /* border: 1px solid #000; */
+        
+    /* padding: 0; */
+        
+    margin-bottom: 30px;
+        
+    /* padding: 20px; */
+        }
+        .submitter_to h2{
+        
+    text-transform: capitalize;
+        
+    font-size: 30px;
+        }
+        .submitted_by{
+        
+        }
+        .submitted_by h1{
+        
+
+        
+font-size: 45px;
+        
+font-weight: 700;
+        
+margin-bottom: 30px;
+        
+
+        }
+        .submitted_by h2{
+            
+text-transform: capitalize;
+
+        }
+        .submitted_by h3{
+    
+text-transform: uppercase;
+    
+font-size: 35px;
+    
+font-weight: 500;
+    
+/* margin-bottom: 20px; */
+    
+
+    }
+    .assignment_span span{
+        
+display: block;
+        
+width: 100%;
+        
+height: 1px;
+        
+background:#f39c12;
+        
+margin: auto;
+        
+position: relative;
+    }
+    .assignment_span span::after{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 5px;
+        background: #f39c12;
+        top: 50%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        animation: slide 3s linear infinite;
+        animation-direction: alternate;
+    }
+    @keyframes slide{
+        0%{
+    left: 0%;
+        }
+        100%{
+    right: 100%;
+        }
+    }
+    .by_line span{
+    
+    width: 45%;
+    
+    margin-bottom: 20px;
+    }
+    .to_line span{
+            
+        width: 45%;
+            
+        margin-bottom: 30px;
+    }
+    .uu_img{
+        position: absolute;
+        width: 126px;
+        left: 100px;
+        top: 59px;
+        cursor: pointer;
+    }
